@@ -16,8 +16,11 @@ jupyter lab extensions (install.sh):
 
 
 #### build and run:
-`docker build -t jackhhchan/pytorch:1.4-cuda-10.1.py3 .`
+`docker build -t docker-image:latest .`
 
-`docker run --gpus all -it -p 8888:8888 jackhhchan/pytorch:1.4-cuda-10.1-py3`
+`docker run --gpus all -it -p 8888:8888 docker-image:latest`
 
 default port 8888 for jupyterlab.
+
+#### pull from repo:
+`docker pull jackhhchan/pytorch:1.4-cuda-10.1-py3-jupyter
