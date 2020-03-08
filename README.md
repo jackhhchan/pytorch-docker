@@ -23,4 +23,4 @@ jupyter lab extensions (install.sh):
 default port 8888 for jupyterlab.
 
 #### pull from repo:
-`docker pull jackhhchan/pytorch:1.4-cuda-10.1-py3-jupyter
+`docker pull jackhhchan/pytorch:1.4-cuda-10.1-py3-jupyter`
