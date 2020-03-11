@@ -1,5 +1,5 @@
 # pytorch-docker
-pytorch docker file set up with jupyter lab and extensions.
+You may use this dockerfile to build a pytorch docker development container!
 
 #### current version:
 builds docker container with miniconda with pytorch env setup.
