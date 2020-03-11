@@ -15,10 +15,14 @@ jupyter lab extensions (install.sh):
 - table of contents
 
 
-#### build and run:
+#### build 
 `docker build -t docker-image:latest .`
 
-`docker run --gpus all -it -p 8888:8888 docker-image:latest`
+#### run
+e.g.:
+```
+  docker run --gpus all -it -p 8888:8888 docker-image:latest
+```
 
 default port 8888 for jupyterlab.
 
