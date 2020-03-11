@@ -1,8 +1,8 @@
 # pytorch-docker
-You may use this dockerfile to build a pytorch docker development container!
+Use this dockerfile to build a pytorch docker development container!
 
 #### current version:
-builds docker container with miniconda with pytorch env setup.
+builds docker container installed with miniconda and a 'pytorch' environment set up.
 
 pytorch env:
 - python 3.7.4
